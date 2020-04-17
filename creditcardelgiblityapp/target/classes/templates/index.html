@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CreditCard-Home Page</title>
+</head>
+<body>
+<form action="/credit-card-elgiblity/checkEligibility" method="post">
+	<div style="background-color: cyan;width:50%;align:center;">
+		<h1>Check for Credit Card Eligibility</h1>
+<div class="table-responsive">
+		<table class="table">
+			<tr>
+				<td>Enter PAN Number:<input type="text" id=panNo”   name="panNumber" 
+				required pattern="[A-Za-z0-9]{10}"  title="10 Charcters Alpha Numeric "/>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				<input type="submit" id="submit" value="Check">
+					
+				</td>
+			</tr>
+
+		</table>
+		</div>
+	</div>
+	</form>
+</body>
+</html>

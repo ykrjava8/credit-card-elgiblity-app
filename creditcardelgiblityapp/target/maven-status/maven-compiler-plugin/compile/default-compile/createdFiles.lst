@@ -1,0 +1,4 @@
+com\banking\wipro\creditcardelgiblity\controller\PanDetailsController.class
+com\banking\wipro\creditcardelgiblity\CreditcardelgiblityappApplication.class
+com\banking\wipro\creditcardelgiblity\repositry\PanDetailsRepositry.class
+com\banking\wipro\creditcardelgiblity\entity\PanDetails.class
